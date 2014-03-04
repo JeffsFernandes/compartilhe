@@ -1,0 +1,7 @@
+%h2= "Hey #{@user.name}, gostaríamos de saber o que você gostaria de compartilhar e de aprender :-)"
+= simple_form_for @user do |f|
+  = f.label :learn, class: 'skill-label' 
+  = f.input :learn, input_html: {"data-role" => "tagsinput", value: @user.learn, placeholder: 'Adicionar ítens'}, label: false
+  = f.label :teach, class: 'skill-label' 
+  = f.input :teach, label_class: 'skill-label', input_html: {"data-role" => "tagsinput", value: @user.teach, placeholder: 'Adicionar ítens'}, label: false
+  = f.button :submit, 'Salvar'

@@ -4,6 +4,8 @@ pt-BR:
       user: "Usuário"
     attributes:
       user:
+        learn: "Gostaria de aprender..."
+        teach: "Gostaria de ensinar..."
         name: "Nome"
         city: "Cidade"
         username: "Usuário"

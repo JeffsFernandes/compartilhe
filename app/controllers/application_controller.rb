@@ -12,5 +12,6 @@ class ApplicationController < ActionController::Base
   end
 
   def index
+    redirect_to skills_path if user_signed_in?
   end
 end

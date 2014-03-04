@@ -35,6 +35,8 @@ class DeviseCreateUsers < ActiveRecord::Migration
       #Customized (Compartilhe)
       t.string :name
       t.string :city
+      t.string :learn
+      t.string :teach
     end
 
     add_index :users, :email,                :unique => true
