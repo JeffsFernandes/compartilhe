@@ -32,6 +32,9 @@ class DeviseCreateUsers < ActiveRecord::Migration
 
 
       t.timestamps
+      #Customized (Compartilhe)
+      t.string :name
+      t.string :city
     end
 
     add_index :users, :email,                :unique => true

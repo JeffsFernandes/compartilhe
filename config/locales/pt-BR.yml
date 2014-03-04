@@ -5,6 +5,7 @@ pt-BR:
     attributes:
       user:
         name: "Nome"
+        city: "Cidade"
         username: "Usuário"
         password: "Senha"
         password_confirmation: "Confirmação de Senha"
