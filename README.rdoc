@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App do Aprender & Ensinar
 
-Things you may want to cover:
+Features:
 
-* Ruby version
+√ Cadastro de usuário e perfil
 
-* System dependencies
+√ Cadastro das skills
 
-* Configuration
+- (Simplest path - Refinar!!) Mostrar quem ensina o que eu quero aprender
 
-* Database creation
+- (Simplest path - Refinar!!) Mostrar quem quer aprender o que eu ensino
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+- Mostrar o perfil da pessoa
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
